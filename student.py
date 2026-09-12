@@ -6,8 +6,8 @@ class manage:
     isLogginStudent = False
     isLogginUser =[]
     
-    def __init__(self,usernames,password,role): 
-        self.username = usernames
+    def __init__(self,username,password,role): 
+        self.username = username
         self.password = password
         self.role = role
     
